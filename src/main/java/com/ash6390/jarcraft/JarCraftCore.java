@@ -1,6 +1,7 @@
 package com.ash6390.jarcraft;
 
 import com.ash6390.jarcraft.configurations.ConfigurationHandler;
+import com.ash6390.jarcraft.items.ItemHandler;
 import com.ash6390.jarcraft.proxy.IProxy;
 import com.ash6390.jarcraft.reference.Configs;
 import com.ash6390.jarcraft.reference.References;
@@ -9,6 +10,7 @@ import cpw.mods.fml.common.SidedProxy;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
+import net.minecraft.item.Item;
 
 @Mod(modid=References.MODID, name=References.NAME, version = References.VERSION)
 public class JarCraftCore
@@ -22,9 +24,7 @@ public class JarCraftCore
     @Mod.EventHandler
     public void preInit(FMLPreInitializationEvent event){
         ConfigurationHandler.init(event.getSuggestedConfigurationFile());
-        System.out.println("USELESS VALUE: " + Configs.uselessValue);
-        System.out.println("USELESS DOUBLE: " + Configs.uselessDouble);
-        System.out.println("USELESS STRING: " + Configs.uselessString);
+        ItemHandler.ItemInit();
     }
 
     public void init(FMLInitializationEvent event){
