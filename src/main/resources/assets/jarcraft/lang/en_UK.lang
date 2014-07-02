@@ -1,5 +1,10 @@
 //ITEMS
 item.glassSword.name=Glass Sword
 item.glassPick.name=Glass Pickaxe
+item.glassShovel.name=Glass Spade
+item.glassAxe.name=Glass Axe
+item.glassHoe.name=Glass Hoe
+item.glassIngot.name=Glass Ingot
+item.glassStick.name=Glass Stick
 
 //BLOCKS
