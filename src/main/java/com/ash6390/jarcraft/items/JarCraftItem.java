@@ -3,7 +3,6 @@ package com.ash6390.jarcraft.items;
 import com.ash6390.jarcraft.JarCraftCore;
 import com.ash6390.jarcraft.reference.References;
 import cpw.mods.fml.common.registry.GameRegistry;
-import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
 import net.minecraft.item.Item.ToolMaterial;
 import net.minecraft.item.ItemArmor;
@@ -46,8 +45,8 @@ public class JarCraftItem
     public static void initializeItems()
     {
         //Crafting Materials
-        glassIngot = new Item().setUnlocalizedName("glassIngot").setCreativeTab(CreativeTabs.tabMaterials).setTextureName(References.MODID + ":glass_ingot");
-        glassStick = new Item().setUnlocalizedName("glassStick").setCreativeTab(CreativeTabs.tabMaterials).setTextureName(References.MODID + ":glass_stick");
+        glassIngot = new Item().setUnlocalizedName("glassIngot").setCreativeTab(JarCraftCore.JarCraftTab).setTextureName(References.MODID + ":glass_ingot");
+        glassStick = new Item().setUnlocalizedName("glassStick").setCreativeTab(JarCraftCore.JarCraftTab).setTextureName(References.MODID + ":glass_stick");
 
         //Tools
         glassSword = new ItemGlassSword(GlassToolMaterial);
@@ -57,10 +56,10 @@ public class JarCraftItem
         glassHoe = new ItemGlassHoe(GlassToolMaterial);
 
         //Armor
-        glassHelmet = new ItemGlassArmor(GlassArmorMaterial, JarCraftCore.proxy.addArmor("glassArmor"), 0).setUnlocalizedName("glassHelmet").setCreativeTab(CreativeTabs.tabCombat).setTextureName(References.MODID + ":glass_helmet");
-        glassChestplate = new ItemGlassArmor(GlassArmorMaterial, JarCraftCore.proxy.addArmor("glassArmor"), 1).setUnlocalizedName("glassChestplate").setCreativeTab(CreativeTabs.tabCombat).setTextureName(References.MODID + ":glass_chestplate");
-        glassLeggings = new ItemGlassArmor(GlassArmorMaterial, JarCraftCore.proxy.addArmor("glassArmor"), 2).setUnlocalizedName("glassLeggings").setCreativeTab(CreativeTabs.tabCombat).setTextureName(References.MODID + ":glass_leggings");
-        glassBoots = new ItemGlassArmor(GlassArmorMaterial, JarCraftCore.proxy.addArmor("glassArmor"), 3).setUnlocalizedName("glassBoots").setCreativeTab(CreativeTabs.tabCombat).setTextureName(References.MODID + ":glass_boots");
+        glassHelmet = new ItemGlassArmor(GlassArmorMaterial, JarCraftCore.proxy.addArmor("glassArmor"), 0).setUnlocalizedName("glassHelmet").setCreativeTab(JarCraftCore.JarCraftTab).setTextureName(References.MODID + ":glass_helmet");
+        glassChestplate = new ItemGlassArmor(GlassArmorMaterial, JarCraftCore.proxy.addArmor("glassArmor"), 1).setUnlocalizedName("glassChestplate").setCreativeTab(JarCraftCore.JarCraftTab).setTextureName(References.MODID + ":glass_chestplate");
+        glassLeggings = new ItemGlassArmor(GlassArmorMaterial, JarCraftCore.proxy.addArmor("glassArmor"), 2).setUnlocalizedName("glassLeggings").setCreativeTab(JarCraftCore.JarCraftTab).setTextureName(References.MODID + ":glass_leggings");
+        glassBoots = new ItemGlassArmor(GlassArmorMaterial, JarCraftCore.proxy.addArmor("glassArmor"), 3).setUnlocalizedName("glassBoots").setCreativeTab(JarCraftCore.JarCraftTab).setTextureName(References.MODID + ":glass_boots");
 
     }
 

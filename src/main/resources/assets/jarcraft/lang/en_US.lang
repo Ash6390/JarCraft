@@ -12,3 +12,6 @@ item.glassLeggings.name=Glass Leggings
 item.glassBoots.name=Glass Boots
 
 //BLOCKS
+
+//TABS
+itemGroup.JarCraftTab=Jar Craft

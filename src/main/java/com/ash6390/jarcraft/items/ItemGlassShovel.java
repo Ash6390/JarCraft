@@ -1,7 +1,7 @@
 package com.ash6390.jarcraft.items;
 
+import com.ash6390.jarcraft.JarCraftCore;
 import com.ash6390.jarcraft.reference.References;
-import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.ItemSpade;
 
 public class ItemGlassShovel extends ItemSpade
@@ -11,6 +11,6 @@ public class ItemGlassShovel extends ItemSpade
         super(material);
         setUnlocalizedName("glassShovel");
         setTextureName(References.MODID + ":glass_shovel");
-        setCreativeTab(CreativeTabs.tabTools);
+        setCreativeTab(JarCraftCore.JarCraftTab);
     }
 }
