@@ -6,5 +6,9 @@ item.glassAxe.name=Ascia di Vetro
 item.glassHoe.name=Zappa di Vetro
 item.glassIngot.name=Lingotto di Vetro
 item.glassStick.name=Stick di Vetro
+item.glassHelmet.name=Elmo di Vetro
+item.glassChestplate.name=Corazza di Vetro
+item.glassLeggings.name=Pantaloni di Vetro
+item.glassBoots.name=Scarpe di Vetro
 
 //BLOCKS
