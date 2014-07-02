@@ -7,6 +7,8 @@ import net.minecraft.item.Item;
 import net.minecraft.item.Item.ToolMaterial;
 import net.minecraftforge.common.util.EnumHelper;
 
+import java.lang.ref.Reference;
+
 
 public class JarCraftItem
 {
@@ -21,6 +23,7 @@ public class JarCraftItem
     public static Item glassShovel;
     public static Item glassHoe;
     public static Item glassAxe;
+    public static Item glassFishingRod;
 
     //ToolMaterials
     public static ToolMaterial GlassMaterial = EnumHelper.addToolMaterial("Glass Material", 2, 200, 7.0F, 2.3F, 15);
@@ -43,6 +46,7 @@ public class JarCraftItem
         glassShovel = new ItemGlassShovel(GlassMaterial);
         glassAxe = new ItemGlassAxe(GlassMaterial);
         glassHoe = new ItemGlassHoe(GlassMaterial);
+        glassFishingRod = new ItemGlassFishingRod();
 
 
     }
@@ -56,6 +60,7 @@ public class JarCraftItem
         GameRegistry.registerItem(glassShovel, "Glass Shovel", References.MODID);
         GameRegistry.registerItem(glassIngot, "Glass Ingot", References.MODID);
         GameRegistry.registerItem(glassStick, "Glass Stick", References.MODID);
+        GameRegistry.registerItem(glassFishingRod, "Glass Fishing Rod", References.MODID);
     }
 
 }
