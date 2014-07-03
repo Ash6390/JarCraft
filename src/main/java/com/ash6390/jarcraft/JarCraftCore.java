@@ -1,5 +1,6 @@
 package com.ash6390.jarcraft;
 
+import com.ash6390.jarcraft.blocks.JarCraftBlocks;
 import com.ash6390.jarcraft.configurations.ConfigurationHandler;
 import com.ash6390.jarcraft.items.JarCraftItem;
 import com.ash6390.jarcraft.proxy.ServerProxy;
@@ -39,6 +40,8 @@ public class JarCraftCore
         proxy.registerRenderThings();
         ConfigurationHandler.init(event.getSuggestedConfigurationFile());
         JarCraftItem.ItemInit();
+        JarCraftBlocks.BlockInit();
+        Recipes.registerRecipes();
     }
 
     public void init(FMLInitializationEvent event){

@@ -1,9 +1,9 @@
 package com.ash6390.jarcraft.items;
 
-import com.ash6390.jarcraft.reference.References;
-import net.minecraft.entity.Entity;
-import net.minecraft.item.ItemArmor;
-import net.minecraft.item.ItemStack;
+        import com.ash6390.jarcraft.reference.References;
+        import net.minecraft.entity.Entity;
+        import net.minecraft.item.ItemArmor;
+        import net.minecraft.item.ItemStack;
 
 public class ItemGlassArmor extends ItemArmor
 {

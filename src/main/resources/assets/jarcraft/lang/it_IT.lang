@@ -12,6 +12,7 @@ item.glassLeggings.name=Pantaloni di Vetro
 item.glassBoots.name=Scarpe di Vetro
 
 //BLOCKS
+tile.GlassIngotBlock.name=Blocco di Lingotto di Vetro
 
 //TABS
 itemGroup.JarCraftTab=Jar Craft
