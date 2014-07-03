@@ -31,10 +31,10 @@ public class JarCraftItem
     public static Item glassBoots;
 
     //ToolMaterials
-    public static ToolMaterial GlassToolMaterial = EnumHelper.addToolMaterial("Glass Tool Material", 2, 200, 7.0F, 2.3F, 15);
+    public static ToolMaterial GlassToolMaterial = EnumHelper.addToolMaterial("Glass Tool Material", 2, 200, 7.0F, 2.1F, 15);
 
     //ArmorMaterials
-    public static ItemArmor.ArmorMaterial GlassArmorMaterial = EnumHelper.addArmorMaterial("Glass Armor Material", 13, new int[]{3, 7, 6, 3}, 15);
+    public static ItemArmor.ArmorMaterial GlassArmorMaterial = EnumHelper.addArmorMaterial("Glass Armor Material", 13, new int[]{2, 6, 6, 2}, 15);
 
     public static void ItemInit()
     {
