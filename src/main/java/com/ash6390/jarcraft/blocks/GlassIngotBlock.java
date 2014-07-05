@@ -6,8 +6,8 @@ import net.minecraft.block.material.Material;
 public class GlassIngotBlock extends Block
 {
 
-    public GlassIngotBlock(Material p_i45394_1_)
+    public GlassIngotBlock(Material material)
     {
-        super(p_i45394_1_);
+        super(material);
     }
 }
