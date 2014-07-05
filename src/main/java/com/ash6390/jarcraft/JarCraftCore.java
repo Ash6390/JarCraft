@@ -1,10 +1,12 @@
 package com.ash6390.jarcraft;
 
 import com.ash6390.jarcraft.blocks.JarCraftBlocks;
-import com.ash6390.jarcraft.configurations.ConfigurationHandler;
+import com.ash6390.jarcraft.handler.ConfigurationHandler;
 import com.ash6390.jarcraft.items.JarCraftItem;
 import com.ash6390.jarcraft.proxy.ServerProxy;
 import com.ash6390.jarcraft.reference.References;
+import com.ash6390.jarcraft.utility.LogHelper;
+import cpw.mods.fml.common.FMLCommonHandler;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.SidedProxy;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
@@ -13,7 +15,7 @@ import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
 
-@Mod(modid=References.MODID, name=References.NAME, version = References.VERSION)
+@Mod(modid=References.MODID, name=References.NAME, version = References.VERSION, guiFactory = References.GUI_FACTORY_CLASS)
 public class JarCraftCore
 {
 
@@ -36,20 +38,23 @@ public class JarCraftCore
 
     @Mod.EventHandler
     public void preInit(FMLPreInitializationEvent event){
-
-        proxy.registerRenderThings();
         ConfigurationHandler.init(event.getSuggestedConfigurationFile());
+        FMLCommonHandler.instance().bus().register(new ConfigurationHandler());
         JarCraftItem.ItemInit();
         JarCraftBlocks.BlockInit();
         Recipes.registerRecipes();
+        LogHelper.info("Pre Initialization Complete!");
     }
 
+    @Mod.EventHandler
     public void init(FMLInitializationEvent event){
-
+        LogHelper.info("Initialization Complete!");
     }
 
+    @Mod.EventHandler
     public void postInit(FMLPostInitializationEvent event){
-
+        LogHelper.info("Post Initialization Complete!");
+        LogHelper.warn("This is a Work in Progress version! Expect bugs!");
     }
 
 }
