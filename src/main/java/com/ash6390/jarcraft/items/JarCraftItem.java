@@ -22,7 +22,6 @@ public class JarCraftItem
     public static Item glassShovel;
     public static Item glassHoe;
     public static Item glassAxe;
-    public static Item glassFishingRod;
 
     //Armor
     public static Item glassHelmet;
