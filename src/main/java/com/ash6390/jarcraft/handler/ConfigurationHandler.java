@@ -33,7 +33,7 @@ public class ConfigurationHandler
 
     private static void loadConfiguration()
     {
-        uselessValue = configuration.getBoolean("Useless Value", "Useless Things", false, "This is an useless value");
+        uselessValue = configuration.getBoolean("Useless Value", "uselesscategory", false, "This is an useless value");
         Configs.uselessValue = uselessValue;
 
         if (configuration.hasChanged())
