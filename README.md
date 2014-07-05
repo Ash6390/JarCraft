@@ -1,4 +1,4 @@
 JarCraft
 ========
 
-Capturable mods!
+Capturable Mobs... Not Yet!
