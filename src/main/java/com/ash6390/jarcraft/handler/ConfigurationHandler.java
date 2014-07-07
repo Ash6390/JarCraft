@@ -11,7 +11,7 @@ import java.io.File;
 public class ConfigurationHandler
 {
     public static Configuration configuration;
-    public static boolean uselessValue = false;
+    public static boolean itemsOn;
 
     public static void init(File configFile)
     {
@@ -33,8 +33,8 @@ public class ConfigurationHandler
 
     private static void loadConfiguration()
     {
-        uselessValue = configuration.getBoolean("Useless Value", "uselesscategory", false, "This is an useless value");
-        Configs.uselessValue = uselessValue;
+        itemsOn = configuration.getBoolean("Enable JarCraft Items (and Blocks)", "general", true, "Are JarCraft items (and Blocks) enabled?");
+        Configs.itemsOn = itemsOn;
 
         if (configuration.hasChanged())
         {
