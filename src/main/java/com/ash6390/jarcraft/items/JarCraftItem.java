@@ -1,6 +1,7 @@
 package com.ash6390.jarcraft.items;
 
 import com.ash6390.jarcraft.JarCraftCore;
+import com.ash6390.jarcraft.reference.Configs;
 import com.ash6390.jarcraft.reference.References;
 import cpw.mods.fml.common.registry.GameRegistry;
 import net.minecraft.item.Item;
@@ -12,28 +13,28 @@ import net.minecraftforge.common.util.EnumHelper;
 public class JarCraftItem
 {
 
-    //Crafting Materials
-    public static Item glassStick;
-    public static Item glassIngot;
+        //Crafting Materials
+        public static Item glassStick;
+        public static Item glassIngot;
 
-    //Tools
-    public static Item glassSword;
-    public static Item glassPick;
-    public static Item glassShovel;
-    public static Item glassHoe;
-    public static Item glassAxe;
+        //Tools
+        public static Item glassSword;
+        public static Item glassPick;
+        public static Item glassShovel;
+        public static Item glassHoe;
+        public static Item glassAxe;
 
-    //Armor
-    public static Item glassHelmet;
-    public static Item glassChestplate;
-    public static Item glassLeggings;
-    public static Item glassBoots;
+        //Armor
+        public static Item glassHelmet;
+        public static Item glassChestplate;
+        public static Item glassLeggings;
+        public static Item glassBoots;
 
-    //ToolMaterials
-    public static ToolMaterial GlassToolMaterial = EnumHelper.addToolMaterial("Glass Tool Material", 2, 200, 7.0F, 2.1F, 15);
+        //ToolMaterials
+        public static ToolMaterial GlassToolMaterial = EnumHelper.addToolMaterial("Glass Tool Material", 2, 200, 7.0F, 2.1F, 15);
 
-    //ArmorMaterials
-    public static ItemArmor.ArmorMaterial GlassArmorMaterial = EnumHelper.addArmorMaterial("Glass Armor Material", 13, new int[]{2, 6, 6, 2}, 15);
+        //ArmorMaterials
+        public static ItemArmor.ArmorMaterial GlassArmorMaterial = EnumHelper.addArmorMaterial("Glass Armor Material", 13, new int[]{2, 6, 6, 2}, 15);
 
     public static void ItemInit()
     {
