@@ -12,11 +12,10 @@ public class JarCraftGuiConfig extends GuiConfig
     public JarCraftGuiConfig(GuiScreen guiScreen)
     {
         super(guiScreen,
-                new ConfigElement(ConfigurationHandler.configuration.getCategory("uselesscategory")).getChildElements(),
+                new ConfigElement(ConfigurationHandler.configuration.getCategory(Configuration.CATEGORY_GENERAL)).getChildElements(),
                 References.MODID,
-                false,
-                false,
+                true,
+                true,
                 GuiConfig.getAbridgedConfigPath(ConfigurationHandler.configuration.toString()));
-
     }
 }
