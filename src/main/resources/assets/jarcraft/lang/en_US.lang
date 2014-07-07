@@ -10,6 +10,7 @@ item.glassHelmet.name=Glass Helmet
 item.glassChestplate.name=Glass Chestplate
 item.glassLeggings.name=Glass Leggings
 item.glassBoots.name=Glass Boots
+item.jarcraft:testItem.name=Test Item
 
 //BLOCKS
 tile.GlassIngotBlock.name=Glass Ingot Block

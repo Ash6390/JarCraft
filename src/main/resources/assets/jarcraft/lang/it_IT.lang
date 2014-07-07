@@ -10,6 +10,7 @@ item.glassHelmet.name=Elmo di Vetro
 item.glassChestplate.name=Corazza di Vetro
 item.glassLeggings.name=Pantaloni di Vetro
 item.glassBoots.name=Scarpe di Vetro
+item.jarcraft:testItem.name=Test Item
 
 //BLOCKS
 tile.GlassIngotBlock.name=Blocco di Lingotto di Vetro
