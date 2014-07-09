@@ -1,7 +1,7 @@
 package com.ash6390.jarcraft;
 
-import com.ash6390.jarcraft.blocks.JarCraftBlocks;
 import com.ash6390.jarcraft.handler.ConfigurationHandler;
+import com.ash6390.jarcraft.init.ModBlocks;
 import com.ash6390.jarcraft.init.ModItems;
 import com.ash6390.jarcraft.items.JarCraftItem;
 import com.ash6390.jarcraft.proxy.ServerProxy;
@@ -36,7 +36,7 @@ public class JarCraftCore
         {
             if (Configs.itemsOn)
             {
-                return JarCraftItem.glassIngot;
+                return ModItems.glassIngot;
 
             } else {
 
@@ -58,15 +58,24 @@ public class JarCraftCore
         if (Configs.itemsOn)
         {
 
-            JarCraftBlocks.BlockInit();
             JarCraftItem.ItemInit();
-            Recipes.registerRecipes();
+
 
             ModItems.init();
+            ModBlocks.init();
 
+            Recipes.registerRecipes();
+
+        }
+        else
+        {
+            LogHelper.info("Items are turned off! Skipping!");
         }
 
         LogHelper.info("Pre Initialization Complete!");
+
+        //Will be removed
+        proxy.registerRenderThings();
     }
 
     @Mod.EventHandler
