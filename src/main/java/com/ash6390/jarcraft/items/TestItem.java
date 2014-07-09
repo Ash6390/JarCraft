@@ -1,8 +1,8 @@
 package com.ash6390.jarcraft.items;
 
-public class testItem extends ItemJC
+public class TestItem extends ItemJC
 {
-    public testItem()
+    public TestItem()
     {
         super();
         this.setUnlocalizedName("testItem");
