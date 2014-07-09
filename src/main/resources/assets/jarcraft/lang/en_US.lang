@@ -4,16 +4,19 @@ item.glassPickaxe.name=Glass Pickaxe
 item.glassShovel.name=Glass Shovel
 item.glassAxe.name=Glass Axe
 item.glassHoe.name=Glass Hoe
-item.glassIngot.name=Glass Ingot
-item.glassStick.name=Glass Stick
+item.jarcraft:glassIngot.name=Glass Ingot
+item.jarcraft:glassStick.name=Glass Stick
 item.glassHelmet.name=Glass Helmet
 item.glassChestplate.name=Glass Chestplate
 item.glassLeggings.name=Glass Leggings
 item.glassBoots.name=Glass Boots
 item.jarcraft:testItem.name=Test Item
+item.jarcraft:illuminatingOrb.name=Illuminating Orb
 
 //BLOCKS
-tile.GlassIngotBlock.name=Glass Ingot Block
+tile.jarcraft:glassIngotBlock.name=Glass Ingot Block
+tile.jarcraft:glassLamp.name=Glass Lamp
+tile.glassLamp.name=Glass Lamp
 
 //TABS
 itemGroup.JarCraftTab=Jar Craft

@@ -4,16 +4,19 @@ item.glassPickaxe.name=Piccone di Vetro
 item.glassShovel.name=Pala di Vetro
 item.glassAxe.name=Ascia di Vetro
 item.glassHoe.name=Zappa di Vetro
-item.glassIngot.name=Lingotto di Vetro
-item.glassStick.name=Stick di Vetro
+item.jarcraft:glassIngot.name=Lingotto di Vetro
+item.jarcraft:glassStick.name=Bastone di Vetro
 item.glassHelmet.name=Elmo di Vetro
 item.glassChestplate.name=Corazza di Vetro
 item.glassLeggings.name=Pantaloni di Vetro
 item.glassBoots.name=Scarpe di Vetro
 item.jarcraft:testItem.name=Test Item
+item.jarcraft:illuminatingOrb.name=Orb dell'illuminazione
 
 //BLOCKS
-tile.GlassIngotBlock.name=Blocco di Lingotto di Vetro
+tile.jarcraft:glassIngotBlock.name=Blocco di Lingotto di Vetro
+tile.jarcraft:glassLamp.name=Lampada di Vetro
+tile.glassLamp.name=Lampada di Vetro
 
 //TABS
 itemGroup.JarCraftTab=Jar Craft
