@@ -12,11 +12,6 @@ import net.minecraftforge.common.util.EnumHelper;
 
 public class JarCraftItem
 {
-
-        //Crafting Materials
-        public static Item glassStick;
-        public static Item glassIngot;
-
         //Tools
         public static Item glassSword;
         public static Item glassPick;
@@ -44,10 +39,6 @@ public class JarCraftItem
 
     public static void initializeItems()
     {
-        //Crafting Materials
-        glassIngot = new Item().setUnlocalizedName("glassIngot").setCreativeTab(JarCraftCore.JarCraftTab).setTextureName(References.MODID + ":glass_ingot");
-        glassStick = new Item().setUnlocalizedName("glassStick").setCreativeTab(JarCraftCore.JarCraftTab).setTextureName(References.MODID + ":glass_stick");
-
         //Tools
         glassSword = new ItemGlassSword(GlassToolMaterial);
         glassPick = new ItemGlassPickaxe(GlassToolMaterial);
@@ -70,8 +61,6 @@ public class JarCraftItem
         GameRegistry.registerItem(glassAxe, "glassAxe", References.MODID);
         GameRegistry.registerItem(glassHoe, "glassHoe", References.MODID);
         GameRegistry.registerItem(glassShovel, "glassShovel", References.MODID);
-        GameRegistry.registerItem(glassIngot, "glassIngot", References.MODID);
-        GameRegistry.registerItem(glassStick, "glassStick", References.MODID);
         GameRegistry.registerItem(glassHelmet, "glassHelmet", References.MODID);
         GameRegistry.registerItem(glassChestplate, "glassChestplate", References.MODID);
         GameRegistry.registerItem(glassLeggings, "glassLeggings", References.MODID);
