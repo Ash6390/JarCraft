@@ -7,6 +7,11 @@ public class ServerProxy
         
     }
 
+    public void registerTileEntitySpecialRenderer()
+    {
+
+    }
+
     public int addArmor(String armor){
         return 0;
     }
