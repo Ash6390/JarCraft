@@ -8,8 +8,8 @@ import org.lwjgl.opengl.GL11;
 
 public class ItemRenderGlassLamp implements IItemRenderer
 {
-    TileEntitySpecialRenderer render;
 
+    TileEntitySpecialRenderer render;
     private TileEntity entity;
 
     public ItemRenderGlassLamp(TileEntitySpecialRenderer render, TileEntity entity)
@@ -33,10 +33,8 @@ public class ItemRenderGlassLamp implements IItemRenderer
     @Override
     public void renderItem(ItemRenderType type, ItemStack item, Object... data)
     {
-        if (type == IItemRenderer.ItemRenderType.ENTITY)
-        {
+        if(type == IItemRenderer.ItemRenderType.ENTITY)
             GL11.glTranslatef(-0.5F, 0.0F, -0.5F);
-            this.render.renderTileEntityAt(this.entity, 0.0D, 0.0D, 0.0D, 0.0F);
-        }
+        this.render.renderTileEntityAt(this.entity, 0.0D, 0.0D, 0.0D, 0.0F);
     }
 }
