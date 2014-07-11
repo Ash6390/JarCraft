@@ -12,7 +12,7 @@ import net.minecraft.block.material.Material;
 @GameRegistry.ObjectHolder(References.MODID)
 public class ModBlocks
 {
-    public static final BlockJC glassIngotBlock = new GlassIngotBlock();;
+    public static final BlockJC glassIngotBlock = new GlassIngotBlock();
     public static final Block glassLamp = new GlassLamp(Material.glass).setLightLevel(1.0F).setBlockName("glassLamp").setHardness(0.3F).setResistance(0.3F).setCreativeTab(JarCraftCore.JarCraftTab).setBlockTextureName("glassLamp");
 
     public static void init()
