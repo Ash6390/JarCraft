@@ -1,5 +1,6 @@
 package com.ash6390.jarcraft.blocks;
 
+import com.ash6390.jarcraft.creativetab.CreativeTabJC;
 import com.ash6390.jarcraft.reference.References;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
@@ -17,6 +18,7 @@ public class BlockJC extends Block
     public BlockJC()
     {
         this(Material.rock);
+        this.setCreativeTab(CreativeTabJC.JC_TAB);
     }
 
     @Override
