@@ -1,6 +1,6 @@
 package com.ash6390.jarcraft.items;
 
-import com.ash6390.jarcraft.JarCraftCore;
+import com.ash6390.jarcraft.creativetab.CreativeTabJC;
 
 public class IlluminatingOrb extends ItemJC
 {
@@ -8,6 +8,6 @@ public class IlluminatingOrb extends ItemJC
     {
         super();
         this.setUnlocalizedName("illuminatingOrb");
-        this.setCreativeTab(JarCraftCore.JarCraftTab);
+        this.setCreativeTab(CreativeTabJC.JC_TAB);
     }
 }

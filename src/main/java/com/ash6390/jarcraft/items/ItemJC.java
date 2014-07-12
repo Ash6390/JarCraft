@@ -1,5 +1,6 @@
 package com.ash6390.jarcraft.items;
 
+import com.ash6390.jarcraft.creativetab.CreativeTabJC;
 import com.ash6390.jarcraft.reference.References;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
@@ -12,6 +13,7 @@ public class ItemJC extends Item
     public ItemJC()
     {
         super();
+        this.setCreativeTab(CreativeTabJC.JC_TAB);
     }
 
     @Override
