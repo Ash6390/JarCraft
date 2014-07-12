@@ -1,0 +1,22 @@
+//ITEMS
+item.glassSword.name=
+item.glassPick.name=
+item.glassShovel.name=
+item.glassAxe.name=
+item.glassHoe.name=
+item.jarcraft:glassIngot.name=
+item.jarcraft:glassStick.name=
+item.glassHelmet.name=
+item.glassChestplate.name=
+item.glassLeggings.name=
+item.glassBoots.name=
+item.jarcraft:testItem.name=
+item.jarcraft:illuminatingOrb.name=
+
+//BLOCKS
+tile.jarcraft:glassIngotBlock.name=
+tile.jarcraft:glassLamp.name=
+tile.glassLamp.name=
+
+//TABS
+itemGroup.JarCraft=Tab o' Jars
