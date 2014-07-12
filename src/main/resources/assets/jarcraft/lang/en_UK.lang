@@ -19,4 +19,4 @@ tile.jarcraft:glassLamp.name=Glass Lamp
 tile.glassLamp.name=Glass Lamp
 
 //TABS
-itemGroup.JarCraftTab=Jar Craft
+itemGroup.JarCraft=Jar Craft
