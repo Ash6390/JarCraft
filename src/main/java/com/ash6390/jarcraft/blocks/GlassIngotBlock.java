@@ -1,6 +1,6 @@
 package com.ash6390.jarcraft.blocks;
 
-import com.ash6390.jarcraft.JarCraftCore;
+import com.ash6390.jarcraft.creativetab.CreativeTabJC;
 import net.minecraft.block.material.Material;
 
 public class GlassIngotBlock extends BlockJC
@@ -13,7 +13,6 @@ public class GlassIngotBlock extends BlockJC
         this.setStepSound(soundTypeMetal);
         this.setHardness(5.0F);
         this.setResistance(10.0F);
-        this.setCreativeTab(JarCraftCore.JarCraftTab);
 
     }
 
