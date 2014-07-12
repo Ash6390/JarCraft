@@ -30,24 +30,6 @@ public class JarCraftCore
     @SidedProxy(clientSide = References.CLIENT_PROXY_CLASS, serverSide = References.SERVER_PROXY_CLASS)
     public static ServerProxy proxy;
 
-    public static CreativeTabs JarCraftTab = new CreativeTabs("JarCraftTab")
-    {
-        public Item getTabIconItem()
-        {
-            if (Configs.itemsOn)
-            {
-                return ModItems.glassIngot;
-
-            } else {
-
-                return Items.glass_bottle;
-
-            }
-
-        }
-    };
-
-
     @Mod.EventHandler
     public void preInit(FMLPreInitializationEvent event){
 
