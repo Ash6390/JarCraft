@@ -17,6 +17,7 @@ item.jarcraft:illuminatingOrb.name=Illuminating Orb
 tile.jarcraft:glassIngotBlock.name=Glass Ingot Block
 tile.jarcraft:glassLamp.name=Glass Lamp
 tile.glassLamp.name=Glass Lamp
+tile.illuminatingOrbBlock=Illuminating Orb
 
 //TABS
 itemGroup.JarCraft=Jar Craft

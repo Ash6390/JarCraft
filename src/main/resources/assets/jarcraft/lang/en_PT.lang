@@ -1,22 +1,22 @@
 //ITEMS
-item.glassSword.name=
-item.glassPick.name=
-item.glassShovel.name=
-item.glassAxe.name=
-item.glassHoe.name=
-item.jarcraft:glassIngot.name=
-item.jarcraft:glassStick.name=
-item.glassHelmet.name=
-item.glassChestplate.name=
-item.glassLeggings.name=
-item.glassBoots.name=
-item.jarcraft:testItem.name=
-item.jarcraft:illuminatingOrb.name=
+item.glassSword.name=CutGLASS
+item.glassPick.name=Minin' in Style
+item.glassShovel.name=Dirt be GONE!
+item.glassAxe.name=Trees?
+item.glassHoe.name=Boats n' Hoes
+item.jarcraft:glassIngot.name=Ingot o' Glass
+item.jarcraft:glassStick.name=Stick o' Glass
+item.glassHelmet.name=Transparent Head Protection
+item.glassChestplate.name=Transparent Muscle Protection
+item.glassLeggings.name=Transparent Leg Protection
+item.glassBoots.name=Transparent Feet Protection
+item.jarcraft:testItem.name=Test Item
+item.jarcraft:illuminatingOrb.name=Orb o' Illumation
 
 //BLOCKS
-tile.jarcraft:glassIngotBlock.name=
-tile.jarcraft:glassLamp.name=
-tile.glassLamp.name=
+tile.jarcraft:glassIngotBlock.name=Block o' Ingots o' Glass
+tile.glassLamp.name=Fancy Glass Lamp!
+tile.illuminatingOrb.name=Orb o' Illumination
 
 //TABS
 itemGroup.JarCraft=Tab o' Jars
