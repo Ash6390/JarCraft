@@ -13,6 +13,7 @@ public class BlockJC extends Block
     public BlockJC(Material material)
     {
         super(material);
+        this.setCreativeTab(CreativeTabJC.JC_TAB);
     }
 
     public BlockJC()
