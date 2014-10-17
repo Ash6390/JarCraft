@@ -6,13 +6,13 @@ import net.minecraft.tileentity.TileEntity;
 import net.minecraftforge.client.IItemRenderer;
 import org.lwjgl.opengl.GL11;
 
-public class ItemRenderGlassLamp implements IItemRenderer
+public class ItemRenderIlluminatingOrb implements IItemRenderer
 {
 
     TileEntitySpecialRenderer render;
     private TileEntity entity;
 
-    public ItemRenderGlassLamp(TileEntitySpecialRenderer render, TileEntity entity)
+    public ItemRenderIlluminatingOrb(TileEntitySpecialRenderer render, TileEntity entity)
     {
         this.entity = entity;
         this.render = render;

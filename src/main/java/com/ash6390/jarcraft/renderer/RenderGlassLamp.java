@@ -10,7 +10,7 @@ import org.lwjgl.opengl.GL11;
 public class RenderGlassLamp extends TileEntitySpecialRenderer
 {
 
-    private static final ResourceLocation texture = new ResourceLocation(References.MODID + ":textures/model/glassLamp.png");
+    private static final ResourceLocation texture = new ResourceLocation(References.MODID + ":" + "textures/model/glassLamp.png");
 
     private ModelGlassLamp model;
 
